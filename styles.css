@@ -1,0 +1,68 @@
+@charset "utf-8";
+
+/*
+   Project Name:
+   Author(s):
+   Date:
+   Filename: styles.css
+
+*/
+
+
+/* HTML and Body styles */
+
+
+
+
+/* Header styles */
+
+
+
+
+/* Navigation list styles */
+
+
+
+/* Article Styles */
+
+
+
+/* Page footer styles */
+
+
+
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 510px
+   =============================================
+*/
+@media only screen and (min-width:511px) {
+   
+   
+}
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 640px
+   =============================================
+*/
+@media only screen and (min-width:641px) {
+      
+   
+}
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 720px
+   =============================================
+*/
+@media only screen and (min-width: 721px) {
+       
+}
+
+/* =============================================
+   Tablet and Desktop Styles: greater than 1020px
+   =============================================
+*/
+@media only screen and (min-width: 1021px) {
+
+    
+}
