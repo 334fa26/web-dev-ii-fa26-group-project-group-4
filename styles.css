@@ -10,98 +10,102 @@
 
 /* Define standard variables and values for website */
 /* HTML and Body styles */
-html { 
-	background-color: rgb(241, 228, 204);
-   font-size: 14px;
-   
+html {
+    background-color: rgb(241, 228, 204);
+    font-size: 14px;
+
 }
+
 /* Header styles */
 .brand-logo {
-  height: 40px; 
-  width: auto;
-} 
+    height: 40px;
+    width: auto;
+}
 
 
 h1 {
-	font-size: 40px;
-	color: #2c2725;
-	background: #f1e4cc;
-	font-family: Garamond, Times, serif;
+    font-size: 40px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
 }
 
 h1 thick {
-	font-weight: bold;
-} 
-
-
-/* Navigation list styles */ 
-body > header {
-    position: relative; 
-    min-height: 60px; 
+    font-weight: bold;
 }
+
+
+/* Navigation list styles */
+body > header {
+    position: relative;
+    min-height: 60px;
+}
+
 body > header > nav#mainLinks {
-	background-color: #f1e4cc;
-	color: white;
-	line-height: 1.7em;
-	padding: 1px 10px;
-  position: absolute;
+    background-color: #f1e4cc;
+    color: white;
+    line-height: 1.7em;
+    padding: 1px 10px;
+    position: absolute;
     top: 0;
     right: 0;
-   transform: translateX(-50%);
+    transform: translateX(-50%);
 }
 
 body > header > nav#mainLinks a {
-    color: #2c2725;            
-    text-decoration: none;   
-    margin-left: 32px;       
-    margin-right: 32px;      
+    color: #2c2725;
+    text-decoration: none;
+    margin-left: 32px;
+    margin-right: 32px;
 }
 
 
 
 nav#mainLinks ul li {
-	background-color: #f1e4cc;	
-	display: block;
-	float: left;
-	text-align:right;
-	width: 15%;	
+    background-color: #f1e4cc;
+    display: block;
+    float: left;
+    text-align: right;
+    width: 15%;
 }
 
 nav#mainLinks ul li a {
-	color: #2c2725;	
-	display: block;
-	height: 2.5em;	
-	text-align: center;
-	line-height: 1em;	
+    color: #2c2725;
+    display: block;
+    height: 2.5em;
+    text-align: center;
+    line-height: 1em;
 }
 
-nav#mainLinks a:link, nav#mainLinks a:visited {
-   background-color: #f1e4cc;
-	color: #2c2725;
+nav#mainLinks a:link,
+nav#mainLinks a:visited {
+    background-color: #f1e4cc;
+    color: #2c2725;
 }
 
-nav#mainLinks a:hover, nav#mainLinks a:active {
-	background-color: #f1e4cc;
-   color: #96584e;
+nav#mainLinks a:hover,
+nav#mainLinks a:active {
+    background-color: #f1e4cc;
+    color: #96584e;
 }
 
 
 /* Article Styles */
 main {
-	font-size: 14px;
-	color: #2c2725;
-	font-weight: normal;
-	background: #f1e4cc;
-	font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+    color: #2c2725;
+    font-weight: normal;
+    background: #f1e4cc;
+    font-family: Inter, Arial, sans-serif;
 }
 
 /* Page footer styles */
 footer {
-	font-size: 14px;
-	color: #f1e4cc;
-	font-weight: normal;
-	background: #2c2725;
-	font-family: Inter, Arial, sans-serif;
+    font-size: 14px;
+    color: #f1e4cc;
+    font-weight: normal;
+    background: #2c2725;
+    font-family: Inter, Arial, sans-serif;
 }
 
 
@@ -110,33 +114,22 @@ footer {
    Tablet and Desktop Styles: greater than 510px
    =============================================
 */
-@media only screen and (min-width:511px) {
-   
-   
-}
+@media only screen and (min-width:511px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (min-width:641px) {
-      
-   
-}
+@media only screen and (min-width:641px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 720px
    =============================================
 */
-@media only screen and (min-width: 721px) {
-       
-}
+@media only screen and (min-width: 721px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 1020px
    =============================================
 */
-@media only screen and (min-width: 1021px) {
-
-    
-}
+@media only screen and (min-width: 1021px) {}
