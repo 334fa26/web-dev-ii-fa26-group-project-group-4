@@ -89,6 +89,19 @@ nav#mainLinks a:active {
     color: #96584e;
 }
 
+.navbutton {
+    background-color: #f1e4cc; 
+    color: white; 
+    font-size: 15px; 
+    padding: 12px
+    border none;
+    border-radius: 5px;
+    cursor: pointer; 
+} 
+
+.navbutton {
+    background-color: #96584e
+}
 
 /* Article Styles */
 main {
@@ -132,4 +145,5 @@ footer {
    Tablet and Desktop Styles: greater than 1020px
    =============================================
 */
+
 @media only screen and (min-width: 1021px) {}
