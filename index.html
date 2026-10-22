@@ -22,9 +22,9 @@
 
 <body>
     <header>
-    <img src="logo.svg" alt="Sweet Clover Bakery" />
-    <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
-        
+        <img src="logo.svg" alt="Sweet Clover Bakery" />
+        <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
+
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
@@ -32,57 +32,75 @@
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-         <button onClick="document.location='contact.html'">Make an order</button>
+            <button onClick="document.location='contact.html'">Make an order</button>
         </nav>
     </header>
 
     <main>
         <!--Home/ Introduction-->
         <section id="index" class="intro">
-            <h1>Follow your sweet tooth</h1>
-            <p>
-                Breakfast, pastries, bread and custom dessert inspiration. Find something for an ordinary day or a very special one.
-            </p>
-            
+            <h1>Something for every kind of day</h1>
         </section>
 
         <!-- Menu Section -->
         <section id="menu">
-    <div class="menu-images-flex">
-        <!-- Left Column: Muffins on top, Cake underneath -->
-        <div class="column-left">
-            <img src="images/muffins.jpg" alt="A tray of freshly baked muffins" />
-            <img src="images/birthdaycake.jpg" alt="Chocolate birthday cake with floral frosting" />
-        </div>
-        
-        <!-- Right Column: Bread Oven -->
-        <div class="column-right">
-            <img src="images/breadoven.jpg" alt="Croissants baking in an oven" />
-        </div>
-    </div>
+            <button onClick="document.location='menu.html'">Explore the menu</button>
+            <div class="menu-images-flex">
+                <!-- Left Column: Muffins on top, Cake underneath -->
+                <div class="column-left">
+                    <img src="images/muffins.jpg" alt="A tray of freshly baked muffins" />
+                    <h2>A softer start.</h2>
+                    <p><i><a href="menu.html">Explore breakfast and pastries</a></i></p>
+                    <img src="images/birthdaycake.jpg" alt="Chocolate birthday cake with floral frosting" />
+                    <h2>Celebrate your way.</h2>
+                    <p><i><a href="menu.html">Explore custom treats</a></i></p>
+                </div>
 
-    <h2><a href="menu.html">Our Menu</a></h2>
-    <p>Explore our selection of fresh breads, pastries, and desserts.</p>
-    <button onClick="document.location='menu.html'">Explore the menu</button>
-</section>
+                <!-- Right Column: Bread Oven -->
+                <div class="column-right">
+                    <img src="images/breadoven.jpg" alt="Croissants baking in an oven" />
+                    <h2>Break bread together.</h2>
+                    <p><i><a href="menu.html">Explore our bread selecion</a></i></p>
+                </div>
+            </div>
+
+        </section>
 
         <!--About section-->
         <section id="about">
             <img src="images/assortedpasteries.jpg" alt="A tray of assorted pastries" />
-            <h2><a href="about.html">About Sweet Clover</a></h2>
-            <p>Learn more about our bakery.</p>
+            <h2>Good things, baked close to home</h2>
+            <p>Sweet Clover is a local bakery and custom dessert shop in Maryville, Missouri. For a break between classes,
+                a treat to bring home or a reason to gather, theres a sweet place to start.</p>
+            <p><i><a href="menu.html">Meet Sweet Clover</a></i></p>
         </section>
 
         <!-- FAQ Selection -->
         <section id="faq">
-            <h2><a href="faq.html">Frequently Asked Questions</a></h2>
-            <p> Find answers to common questions about our bakery and products.</p>
+            <h2>Good to know before you go</h2>
+            <h3>Do you offer delivery?</h3>
+            <p>At this time, Sweet Clover offers bakery pickup. Delivery may be available for select large orders by special arrangement.</p>
+            <h3>Do you accept custom orders?</h3>
+            <p>Yes. We offer custom cakes, cookies, cupcakes, and dessert boxes for a variety of occasions.</p>
+            <p><i><a href="faq.html">Read all FAQs</a></i></p>
         </section>
 
         <!-- Contact Section -->
         <section id="contact">
-            <h2><a href="contact.html">Contact Us</a></h2>
-            <p>Get in touch with Sweet Clover Bakery for questions or custom orders</p>
+            <h2>Make room for a bakery stop</h2>
+            <h3>Address</h3>
+            <p>123 Main Street, Maryville, MO 64468</p>
+            <h3>Hours</h3>
+            <p>Monday: 7:00 a.m.–3:00 p.m.</p>
+            <p>Tuesday: 7:00 a.m.–3:00 p.m.</p>
+            <p>Wednesday: 7:00 a.m.–3:00 p.m.</p>
+            <p>Thursday: 7:00 a.m.–5:00 p.m.</p>
+            <p>Friday: 7:00 a.m.–5:00 p.m.</p>
+            <p>Saturday: 8:00 a.m.–2:00 p.m.</p>
+            <p>Sunday: Closed</p>
+
+            <p><i><a href="faq.html">Get in touch with Sweet Clover Bakery for questions or custom orders</a></i></p>
+
         </section>
 
     </main>
