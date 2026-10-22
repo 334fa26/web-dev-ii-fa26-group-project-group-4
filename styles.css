@@ -41,13 +41,14 @@ h2 {
     font-family: Garamond, Times, serif;
 }
 
-h3{
+h3 {
     font-size: 20px;
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
 }
-p{
+
+p {
     font-size: 15px;
     color: #2c2725;
     background: #f1e4cc;
@@ -109,14 +110,14 @@ nav#mainLinks a:active {
 }
 
 .navbutton {
-    background-color: #f1e4cc; 
-    color: white; 
-    font-size: 15px; 
+    background-color: #f1e4cc;
+    color: white;
+    font-size: 15px;
     padding: 12px;
     border: none;
     border-radius: 5px;
-    cursor: pointer; 
-} 
+    cursor: pointer;
+}
 
 .navbutton {
     background-color: #96584e
@@ -132,7 +133,7 @@ main {
 }
 
 /* Page footer styles */
-footer p{
+footer p {
     font-size: 14px;
     color: #f1e4cc;
     font-weight: normal;
