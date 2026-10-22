@@ -22,10 +22,9 @@
 
 <body>
     <header>
-        <img src="brand.svg" alt="Sweet Clover Bakery" />
-        <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
-            <button class="navbutton">Make an order</button>
-
+    <img src="brand.svg" alt="Sweet Clover Bakery" />
+    <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
+        
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
@@ -33,6 +32,7 @@
                 <li><a href="faq.html">FAQ</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
+         <button onClick="document.location='contact.html'">Make an order</button>
         </nav>
     </header>
 
@@ -43,17 +43,28 @@
             <p>
                 Breakfast, pastries, bread and custom dessert inspiration. Find something for an ordinary day or a very special one.
             </p>
+            
         </section>
 
         <!-- Menu Section -->
         <section id="menu">
+    <div class="menu-images-flex">
+        <!-- Left Column: Muffins on top, Cake underneath -->
+        <div class="column-left">
             <img src="images/muffins.jpg" alt="A tray of freshly baked muffins" />
-            <img src="images/breadoven.jpg" alt="Croissants baking in an oven" />
             <img src="images/birthdaycake.jpg" alt="Chocolate birthday cake with floral frosting" />
+        </div>
+        
+        <!-- Right Column: Bread Oven -->
+        <div class="column-right">
+            <img src="images/breadoven.jpg" alt="Croissants baking in an oven" />
+        </div>
+    </div>
 
-            <h2><a href="menu.html">Our Menu</a></h2>
-            <p>Explore our selection of fresh breads, pastries, and desserts.</p>
-        </section>
+    <h2><a href="menu.html">Our Menu</a></h2>
+    <p>Explore our selection of fresh breads, pastries, and desserts.</p>
+    <button onClick="document.location='menu.html'">Explore the menu</button>
+</section>
 
         <!--About section-->
         <section id="about">

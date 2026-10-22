@@ -55,45 +55,47 @@ p {
     font-family: Garamond, Times, serif;
 }
 
-/* Navigation list styles */
+/* Navigation container styles */
 body > header {
     position: relative;
+    top: 0;
+    z-index: 1000;
+    background-color: #f1e4cc; 
     min-height: 60px;
+    width: 100%;
+   
 }
 
 body > header > nav#mainLinks {
     background-color: #f1e4cc;
-    color: white;
-    line-height: 1.7em;
-    padding: 1px 10px;
-    position: absolute;
-    top: 0;
-    right: 0;
-    transform: translateX(-50%);
-}
-
-body > header > nav#mainLinks a {
     color: #2c2725;
-    text-decoration: none;
-    margin-left: 32px;
-    margin-right: 32px;
+    padding: 0 10px;
+    width: 100%;
 }
 
-
+/* Use Flexbox and center the links */
+nav#mainLinks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-wrap: wrap; 
+}
 
 nav#mainLinks ul li {
     background-color: #f1e4cc;
-    display: block;
-    float: left;
-    text-align: right;
-    width: 15%;
+    text-align: center;
 }
 
+/* Link styling */
+body > header > nav#mainLinks a,
 nav#mainLinks ul li a {
     color: #2c2725;
+    text-decoration: none;
     display: block;
-    height: 2.5em;
-    text-align: center;
+    padding: 15px 16px; 
     line-height: 1em;
 }
 
@@ -109,20 +111,19 @@ nav#mainLinks a:active {
     color: #96584e;
 }
 
-.navbutton {
-    background-color: #f1e4cc;
+/* Button pinned to the top right */
+body > header button {
+    position: absolute;
+    top: 12px;           
+    right: 20px;          
+    background-color: #96584e;
     color: white;
     font-size: 15px;
-    padding: 12px;
+    padding: 10px 14px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
 }
-
-.navbutton {
-    background-color: #96584e
-}
-
 /* Article Styles */
 main {
     font-size: 14px;
@@ -130,6 +131,30 @@ main {
     font-weight: normal;
     background: #f1e4cc;
     font-family: Inter, Arial, sans-serif;
+}
+
+/* Flexbox container for the menu images */
+#menu .menu-images-flex {
+    display: flex;
+    gap: 20px; 
+    flex-wrap: wrap; 
+}
+
+/* Left and right column styling */
+#menu .column-left,
+#menu .column-right {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    flex: 1;
+    min-width: 250px; 
+}
+
+/* Image styling */
+#menu .menu-images-flex img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Page footer styles */
