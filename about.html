@@ -8,7 +8,7 @@
          Author(s): Chase Droegemueller, Danielle Babb, Emma Fournier
          Date:   10/18/2026
    
-         Filename: index.html
+         Filename: about.html
    
       -->
 
@@ -23,7 +23,7 @@
 
 <body>
     <header>
-        <img src="logo.svg" alt="Sweet Clover Bakery" />
+        <img class="brand-logo" src="logo.svg" alt="Sweet Clover Bakery" />
         <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
         <button onClick="document.location='contact.html'">Make an order</button>
             <ul>
@@ -41,7 +41,7 @@
         <section id="about">
             <img src="images/bakerycounter.jfif" alt="Sweet Clover Bakery counter displaying baked goods" />
             <h1>A little sweetness. A sense of home.</h1>
-            <p>A local bakery and custome dessert shop in Maryville, Missouri. A place to begin an everyday ritual or dream up something for a celebration.</p>
+            <p>A local bakery and custom dessert shop in Maryville, Missouri. A place to begin an everyday ritual or dream up something for a celebration.</p>
         </section>
         <section>
             <h2>Our Story</h2>
@@ -55,23 +55,28 @@
             <h3>Keep It Local</h3>
             <p><b>Keep It Local.</b> We're proud to be part of the Maryville community and enjoy supporting local organizations, events, and customers.</p>
 
-            <p><b>Celebrate Every Occassion.</b> A birthday, graduation, Friday morning, or Tuesday afternoon can be a reason to celebrate. </p>
+            <p><b>Celebrate Every Occasion.</b> A birthday, graduation, Friday morning, or Tuesday afternoon can be a reason to celebrate. </p>
         </section>
-        <section>
+        <section class="about-section">
             <h2>Meet the Team</h2>
+             <div class="team-member">
             <img src="images/emmacarter.jpg" alt="Emma Carter" />
             <h3>Emma Carter</h3>
             <p>Owner & Head Baker</p>
             <p>Emma founded Sweet Clover and oversees daily baking, recipe development, and custom cake design.</p>
-            <img src="images/lucasbennett.jpg" alt="Lucas Bennet" />
+            </div>
+             <div class="team-member">
+            <img src="images/lucasbennett.jpg" alt="Lucas Bennett" />
             <h3>Lucas Bennett</h3>
             <p>Pastry Chef</p>
             <p>Lucas specializes in pastries, breads, and seasonal desserts. He particularly enjoys experimenting with new flavor combinations.</p>
+            </div>
         </section>
     </main>
 
     <footer>
         <p>This site was created as part of the Web Development II course at Northwest Missouri State University and was developed to learn and enhance the concepts within that course. It is not intended for public use.</p>
+        <p>&copy; Sweet Clover Bakery</p>
     </footer>
 </body>
 

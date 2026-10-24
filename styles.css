@@ -24,7 +24,7 @@ html {
     font-size: 14px;
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
-     margin: 0;
+    margin: 0;
     font-family: Garamond, Times, serif;
 }
 
@@ -73,6 +73,7 @@ p {
     margin: 0 0 20px;
     line-height: 1.7;
 }
+
 /* Menu cards */
 .items {
     display: flex;
@@ -197,18 +198,19 @@ main {
 }
 
 /* contact form */
-form{
+form {
     max-width: 450px;
     margin: 25px auto;
     text-align-last: left;
 }
 
-label{
+label {
     display: block;
     margin: 15px 0 5px;
 }
 
-input, textarea{
+input,
+textarea {
     width: 100%;
     padding: 12px;
     border: 1px solid #2c2725;
@@ -216,8 +218,80 @@ input, textarea{
     font: inherit;
 }
 
-textarea{
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.form-buttons input {
+    background-color: #96584e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-buttons input:hover {
+    background-color: #798165;
+}
+
+textarea {
     height: 120px;
+}
+
+/* About page */
+.about-section {
+    padding: 35px 8%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-image {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 25px;
+    border-radius: 5px;
+}
+
+.team-member {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #fffaf2;
+    border-radius: 5px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+/* FAQ page */
+.faq-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px 8%;
+}
+
+.faq-section h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #96584e;
+}
+
+.faq-section h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.faq-section p {
+    margin-bottom: 12px;
 }
 
 /* Page footer styles */
@@ -228,37 +302,33 @@ footer p {
     background: #2c2725;
     font-family: Inter, Arial, sans-serif;
     line-height: 1.7;
-    margin: 0 0 20px;
+    margin: 0;
     padding: 30px 8%;
     text-align: center;
-    margin-bottom: 10px;
+
 }
 
 /* =============================================
    Tablet and Desktop Styles: greater than 510px
    =============================================
 */
-@media only screen and (min-width: 511px) {
-}
+@media only screen and (min-width: 511px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (min-width: 641px) {
-}
+@media only screen and (min-width: 641px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 720px
    =============================================
 */
-@media only screen and (min-width: 721px) {
-}
+@media only screen and (min-width: 721px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 1020px
    =============================================
 */
 
-@media only screen and (min-width: 1021px) {
-}
+@media only screen and (min-width: 1021px) {}
