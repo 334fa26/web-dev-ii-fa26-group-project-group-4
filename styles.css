@@ -9,11 +9,23 @@
 */
 
 /* Define standard variables and values for website */
+* {
+    box-sizing: border-box;
+}
+
+section {
+    padding: 40px 8%;
+    text-align: center;
+}
+
 /* HTML and Body styles */
 html {
     background-color: rgb(241, 228, 204);
     font-size: 14px;
-
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+     margin: 0;
+    font-family: Garamond, Times, serif;
 }
 
 /* Header styles */
@@ -22,12 +34,13 @@ html {
     width: auto;
 }
 
-
 h1 {
     font-size: 40px;
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
+    margin: 0;
+    line-height: 1.7;
 }
 
 h1 thick {
@@ -39,6 +52,8 @@ h2 {
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
+    margin: 0;
+    line-height: 1.7;
 }
 
 h3 {
@@ -46,6 +61,8 @@ h3 {
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
+    margin: 0;
+    line-height: 1.7;
 }
 
 p {
@@ -53,6 +70,24 @@ p {
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
+/* Menu cards */
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.items div {
+    flex: 1 1 250px;
+    max-width: 350px;
+    padding: 15px;
+    background-color: #fffaf2;
+    border-radius: 5px;
 }
 
 /* Navigation container styles */
@@ -60,10 +95,9 @@ body > header {
     position: relative;
     top: 0;
     z-index: 1000;
-    background-color: #f1e4cc; 
+    background-color: #f1e4cc;
     min-height: 60px;
     width: 100%;
-   
 }
 
 body > header > nav#mainLinks {
@@ -79,9 +113,9 @@ nav#mainLinks ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
 }
 
 nav#mainLinks ul li {
@@ -95,7 +129,7 @@ nav#mainLinks ul li a {
     color: #2c2725;
     text-decoration: none;
     display: block;
-    padding: 15px 16px; 
+    padding: 15px 16px;
     line-height: 1em;
 }
 
@@ -114,8 +148,8 @@ nav#mainLinks a:active {
 /* Button pinned to the top right */
 body > header button {
     position: absolute;
-    top: 12px;           
-    right: 20px;          
+    top: 12px;
+    right: 20px;
     background-color: #96584e;
     color: white;
     font-size: 15px;
@@ -124,6 +158,7 @@ body > header button {
     border-radius: 5px;
     cursor: pointer;
 }
+
 /* Article Styles */
 main {
     font-size: 14px;
@@ -131,30 +166,58 @@ main {
     font-weight: normal;
     background: #f1e4cc;
     font-family: Inter, Arial, sans-serif;
+    margin: 0;
+    line-height: 1.7;
 }
 
 /* Flexbox container for the menu images */
 #menu .menu-images-flex {
     display: flex;
-    gap: 20px; 
-    flex-wrap: wrap; 
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 /* Left and right column styling */
 #menu .column-left,
 #menu .column-right {
     display: flex;
-    flex-direction: column; 
-    gap: 20px; 
+    flex-direction: column;
+    gap: 20px;
     flex: 1;
-    min-width: 250px; 
+    min-width: 250px;
 }
 
 /* Image styling */
 #menu .menu-images-flex img {
+    display: block;
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 5px;
+}
+
+/* contact form */
+form{
+    max-width: 450px;
+    margin: 25px auto;
+    text-align-last: left;
+}
+
+label{
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2c2725;
+    border-radius: 4px;
+    font: inherit;
+}
+
+textarea{
+    height: 120px;
 }
 
 /* Page footer styles */
@@ -164,31 +227,38 @@ footer p {
     font-weight: normal;
     background: #2c2725;
     font-family: Inter, Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0 0 20px;
+    padding: 30px 8%;
+    text-align: center;
+    margin-bottom: 10px;
 }
-
-
 
 /* =============================================
    Tablet and Desktop Styles: greater than 510px
    =============================================
 */
-@media only screen and (min-width:511px) {}
+@media only screen and (min-width: 511px) {
+}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (min-width:641px) {}
+@media only screen and (min-width: 641px) {
+}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 720px
    =============================================
 */
-@media only screen and (min-width: 721px) {}
+@media only screen and (min-width: 721px) {
+}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 1020px
    =============================================
 */
 
-@media only screen and (min-width: 1021px) {}
+@media only screen and (min-width: 1021px) {
+}
