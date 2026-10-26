@@ -1,140 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!--
+
+<head>
+    <!--
          Project Description: Sweet Clover Webpage
 
-         Author(s): Emma Fournier, Chase Droegemueller
-         Date:   
+         Author(s): Emma Fournier, Chase Droegemueller, Danielle Babb
+         Date:   10/18/2026
    
          Filename: index.html
    
       -->
-      
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title>Sweet Clover</title>
-      <link href="styles.css" rel="stylesheet" />
-      <link href="sassstyles.scss" rel="stylesheet" />
 
-   </head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sweet Clover</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="sassstyles.css" rel="stylesheet" />
 
-   <body>
-<header>
-<img class="brand-logo" src="logo.svg" alt="Sweet Clover Bakery" />
-      <nav class="horizontal" id="mainLinks">
-         <ul>
-         <li><a href="#index">Home</a></li>
-         <li><a href="#menu">Menu</a></li>
-        <li><a href="#about">About</a></li>
-         <li><a href="#faq">FAQ</a></li>
-        <li><a href="#contact">Contact</a></li>
-    
-         </ul>
-      </nav>
-   </header>
-      
-   <main>
-      <!--Home/ Introduction-->
-      <section id="index" class="into">
-         <h1>Follow your sweet tooth</h1>
-         <p>
-            Breakfast, pastries, bread and custom dessert inspiration. Find something for an ordinary day or a very special one.
-         </p>
-      </section>
-      
-      <!-- Menu Section -->
-      <section id="menu">
-         <h2><a href="menu.html">Our Menu</a></h2>
-         <p>Explore our selection of fresh breads, pastries, and Desserts.</p>
-      </section>
-      
-      <!--About section-->
-      <section id="about">
-         <h2><a href="about.html">About Sweet Clover</a></h2>
-         <p>Learn more about our bakery.</p>
-      </section>
-      
-      <!-- FAQ Selection -->
-      <section id="faq">
-         <h2><a href="faq.html">Frequently Asked Questions</a></h2>
-         <p> find answers to common questions about our bakery and products.</p>
-      </section>
-      
-      <!-- Contact Section -->
-      <section id="contact">
-      <h2><a href="contact.html">Contact Us</a></h2>
-         <p>Get in touch with Sweet Clover Bakery for questions or Custom orders</p>
-      </section>
-  
-   </main>
-      <footer class="site-footer">
-         <div class="footer-content">
-         
-              <!-- Branding -->
-         <div class="footer-branding">
-         <a href="index.html" class="footer-logo">
-         <img src="Brand.svg" alt="" class="footer-icon">
-            <span>
-               <span class="brand-name">Sweet Clover</span>
-               <span class="brnd-subtitle">BAKERY</span>
-            </span>
-         </a>
-         
-         <p>
-            Alocal bakery&amp; cutom desserts shop
-            Alittle sweetness, right here in Maryville
-         </p>
-         
-         <span class="footerlocation">
-            MARRYCILLE, MISSOURI
-         </span>
-      </div>
-         
-      <!-- Links -->
-      <div class="footer-column">
-         <h3>EXPLORE</h3>
-         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="menu.html">Menue</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
-         </ul>
-      </div>
-      
-      <!-- Visit informartion -->
-      <div class="footer-column">
-         <h3>PLAN A VISIT</h3>
-         <p>Marryville, Missouri</p>
-         <p>
-            street adress coming soon<br>
-            hours to be confirmd
-         </p>
-         <p>Pickup only . No delivery</p>
-      </div>
+</head>
+
+<body>
+    <header>
+    <img src="logo.svg" alt="Sweet Clover Bakery" />
+    <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
+        
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+         <button onClick="document.location='contact.html'">Make an order</button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Home/ Introduction-->
+        <section id="index" class="intro">
+            <h1>Follow your sweet tooth</h1>
+            <p>
+                Breakfast, pastries, bread and custom dessert inspiration. Find something for an ordinary day or a very special one.
+            </p>
             
-      <!-- Contact information -->
-         <div class="footer-colum">
-            <h3>LETS TALK SWEETS</h3>
-            <p>Contact details coming soon</p>
-            <a href="contact.html" class="footer-inquiry">
-               Customer-order inquiry &nbsp; ↗
-            </a>
-            <p>Have a question? Visit our FAQ</p>
-            </div>
-         
-         </div>
-         
-      <!--Bottom copyright area -->
-      <div class= "footer-bottom">
-         <p>&copy; Sweet Clover Bakery</p>
-         <p>Everyday treats. Meaningful celebration. Local sweetness.</p>
-         </div>
-         <p>This site was created as part of the Web Development II course at Northwest Missouri State University and was developed to learn and enhance the concepts within that course. It is not intended for public use.</p>
-      </footer>
-   </body>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu">
+    <div class="menu-images-flex">
+        <!-- Left Column: Muffins on top, Cake underneath -->
+        <div class="column-left">
+            <img src="images/muffins.jpg" alt="A tray of freshly baked muffins" />
+            <img src="images/birthdaycake.jpg" alt="Chocolate birthday cake with floral frosting" />
+        </div>
+        
+        <!-- Right Column: Bread Oven -->
+        <div class="column-right">
+            <img src="images/breadoven.jpg" alt="Croissants baking in an oven" />
+        </div>
+    </div>
+
+    <h2><a href="menu.html">Our Menu</a></h2>
+    <p>Explore our selection of fresh breads, pastries, and desserts.</p>
+    <button onClick="document.location='menu.html'">Explore the menu</button>
+</section>
+
+        <!--About section-->
+        <section id="about">
+            <img src="images/assortedpasteries.jpg" alt="A tray of assorted pastries" />
+            <h2><a href="about.html">About Sweet Clover</a></h2>
+            <p>Learn more about our bakery.</p>
+        </section>
+
+        <!-- FAQ Selection -->
+        <section id="faq">
+            <h2><a href="faq.html">Frequently Asked Questions</a></h2>
+            <p> Find answers to common questions about our bakery and products.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2><a href="contact.html">Contact Us</a></h2>
+            <p>Get in touch with Sweet Clover Bakery for questions or custom orders</p>
+        </section>
+
+    </main>
+    <footer>
+        <p>This site was created as part of the Web Development II course at Northwest Missouri State University and was developed to learn and enhance the concepts within that course. It is not intended for public use.</p>
+    </footer>
+</body>
+
 
 </html>
-
-
