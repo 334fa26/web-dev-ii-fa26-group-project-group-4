@@ -312,7 +312,16 @@ footer p {
    Tablet and Desktop Styles: greater than 510px
    =============================================
 */
-@media only screen and (min-width: 511px) {}
+@media only screen and (min-width: 511px) {
+   
+    #about,#about p,#about h2{
+        background-color: #798165;
+        padding: 30px 8%;
+        color: white;
+    }
+    
+}
+
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
