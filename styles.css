@@ -152,6 +152,7 @@ body > header button {
     top: 12px;
     right: 20px;
     background-color: #96584e;
+     font-family: Garamond, Times, serif;
     color: white;
     font-size: 15px;
     padding: 10px 14px;
@@ -177,6 +178,7 @@ body > main button {
     position: absolute;
     align-self: center;
     background-color: #96584e;
+     font-family: Garamond, Times, serif;
     color: white;
     font-size: 15px;
     padding: 10px 14px;
@@ -327,12 +329,16 @@ footer p {
 */
 @media only screen and (min-width: 511px) {
    
-    #about,#about p,#about h2{
+    #about,#about p,#about h1, #about h2, #about h3{
         background-color: #798165;
-        padding: 30px 8%;
         color: white;
     }
     
+    #contact,#contact p, #contact h1, #contact h2, #contact h3{
+        background-color: #96584e;
+        color: white;
+
+    }
 }
 
 
