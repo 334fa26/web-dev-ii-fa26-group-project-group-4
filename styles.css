@@ -171,6 +171,19 @@ main {
     line-height: 1.7;
 }
 
+/* Menu button styling */ 
+body > main button {
+    transform: translate(-50%, -150%);
+    position: absolute;
+    align-self: center;
+    background-color: #96584e;
+    color: white;
+    font-size: 15px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 /* Flexbox container for the menu images */
 #menu .menu-images-flex {
     display: flex;
