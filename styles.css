@@ -24,7 +24,6 @@ html {
     font-size: 14px;
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
-    margin: 0;
     font-family: Garamond, Times, serif;
 }
 
@@ -39,7 +38,6 @@ h1 {
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
-    margin: 0;
     line-height: 1.7;
 }
 
@@ -94,7 +92,6 @@ p {
 /* Navigation container styles */
 body > header {
     position: relative;
-    top: 0;
     z-index: 1000;
     background-color: #f1e4cc;
     min-height: 60px;
@@ -104,19 +101,17 @@ body > header {
 body > header > nav#mainLinks {
     background-color: #f1e4cc;
     color: #2c2725;
-    padding: 0 10px;
     width: 100%;
 }
 
 /* Use Flexbox and center the links */
 nav#mainLinks ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    list-style: none;
+   
 }
 
 nav#mainLinks ul li {
@@ -168,7 +163,6 @@ main {
     font-weight: normal;
     background: #f1e4cc;
     font-family: Inter, Arial, sans-serif;
-    margin: 0;
     line-height: 1.7;
 }
 
