@@ -118,6 +118,16 @@ nav#mainLinks ul li {
     text-align: center;
 }
 
+/* link colors*/
+a:link,
+a:visited{
+    color: #96584e;
+}
+
+a:hover,
+a:active {
+    color:#798165;
+}
 /* Link styling */
 body > header > nav#mainLinks a,
 nav#mainLinks ul li a {
