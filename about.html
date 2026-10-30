@@ -25,7 +25,7 @@
     <header>
         <img class="brand-logo" src="logo.svg" alt="Sweet Clover Bakery" />
         <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
-        <button onClick="document.location='contact.html'">Make an order</button>
+            <button onClick="document.location='contact.html'">Make an order</button>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
@@ -39,9 +39,13 @@
     <main>
         <!--About section-->
         <section id="about">
-            <img src="images/bakerycounter.jfif" alt="Sweet Clover Bakery counter displaying baked goods" />
-            <h1>A little sweetness. A sense of home.</h1>
-            <p>A local bakery and custom dessert shop in Maryville, Missouri. A place to begin an everyday ritual or dream up something for a celebration.</p>
+            <div class="about-content">
+                <img src="images/bakerycounter.jfif" alt="Sweet Clover Bakery counter displaying baked goods" />
+                <div class="about-text">
+                    <h1>A little sweetness. A sense of home.</h1>
+                    <p>A local bakery and custom dessert shop in Maryville, Missouri. A place to begin an everyday ritual or dream up something for a celebration.</p>
+                </div>
+            </div>
         </section>
         <section>
             <h2>Our Story</h2>
@@ -58,18 +62,29 @@
             <p><b>Celebrate Every Occasion.</b> A birthday, graduation, Friday morning, or Tuesday afternoon can be a reason to celebrate. </p>
         </section>
         <section class="about-section">
+
+
             <h2>Meet the Team</h2>
-             <div class="team-member">
-            <img src="images/emmacarter.jpg" alt="Emma Carter" />
-            <h3>Emma Carter</h3>
-            <p>Owner & Head Baker</p>
-            <p>Emma founded Sweet Clover and oversees daily baking, recipe development, and custom cake design.</p>
+            <div class="team-content">
+                <div class="team-member">
+                    <img src="images/emmacarter.jpg" alt="Emma Carter" />
+                </div>
+                <div class="team-text">
+                    <h3>Emma Carter</h3>
+                    <p>Owner & Head Baker</p>
+                    <p>Emma founded Sweet Clover and oversees daily baking, recipe development, and custom cake design.</p>
+                </div>
             </div>
-             <div class="team-member">
-            <img src="images/lucasbennett.jpg" alt="Lucas Bennett" />
-            <h3>Lucas Bennett</h3>
-            <p>Pastry Chef</p>
-            <p>Lucas specializes in pastries, breads, and seasonal desserts. He particularly enjoys experimenting with new flavor combinations.</p>
+
+            <div class="team-content">
+                <div class="team-member">
+                    <img src="images/lucasbennett.jpg" alt="Lucas Bennett" />
+                </div>
+                <div class="team-text">
+                    <h3>Lucas Bennett</h3>
+                    <p>Pastry Chef</p>
+                    <p>Lucas specializes in pastries, breads, and seasonal desserts. He particularly enjoys experimenting with new flavor combinations.</p>
+                </div>
             </div>
         </section>
     </main>
