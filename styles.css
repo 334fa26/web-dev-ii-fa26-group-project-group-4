@@ -393,7 +393,23 @@ footer p {
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (min-width: 641px) {}
+@media only screen and (min-width: 640px) {
+    .about-content, .team-content, .menu-content {
+        gap: 50px; 
+    }
+
+    .about-text, .team-text, .menu-text {
+        width: 55%; 
+    }
+
+    #menu .menu-images-flex {
+        gap: 35px;
+    }
+
+    #menu .menu-item img {
+        height: 280px; 
+    }
+}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 720px
