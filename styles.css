@@ -393,7 +393,7 @@ footer p {
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 641px) {
     .about-content, .team-content, .menu-content {
         gap: 50px; 
     }
@@ -415,7 +415,21 @@ footer p {
    Tablet and Desktop Styles: greater than 720px
    =============================================
 */
-@media only screen and (min-width: 721px) {}
+@media only screen and (min-width: 721px) {
+     .about-content, .team-content, .menu-content {
+        gap: 60px;
+    }
+
+    /* Fine-tune the grid gap for a roomier layout */
+    #menu .menu-images-flex {
+        gap: 40px;
+    }
+
+    /* Increase image height for a more impactful visual presence */
+    #menu .menu-item img {
+        height: 310px;
+    }
+}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 1020px
