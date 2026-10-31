@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--
+         Project Description:
+
+         Author(s): Chase Droegemueller, Danielle Babb, Emma Fournier
+         Date:   10/18/2026
+   
+         Filename: contact.html
+   
+      -->
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sweet Clover - Contact</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link href="sassstyles.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+    <header>
+        <img class="brand-logo" src="logo.svg" alt="Sweet Clover Bakery" />
+        <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
+            <button onClick="document.location='contact.html'">Make an order</button>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html" aria-current="page">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Contact Section -->
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Have a question about our menu or planning a special event? Get in touch with our team.</p>
+            <h2>Contact Information</h2>
+            <p>Address: 123 Main Street, Maryville, MO 64468</p>
+            <p>Phone: (660) 555-0147</p>
+            <p>Email: hello@whiskandcrumb.example</p>
+            <h3>Hours</h3>
+            <p>Monday: 7:00 a.m.–3:00 p.m.</p>
+            <p>Tuesday: 7:00 a.m.–3:00 p.m.</p>
+            <p>Wednesday: 7:00 a.m.–3:00 p.m.</p>
+            <p>Thursday: 7:00 a.m.–5:00 p.m.</p>
+            <p>Friday: 7:00 a.m.–5:00 p.m.</p>
+            <p>Saturday: 8:00 a.m.–2:00 p.m.</p>
+            <p>Sunday: Closed</p>
+
+            <section class="contact-section">
+                <h2>Contact Form</h2>
+
+                <form action="#" method="post">
+                    <label for="fname">First name:</label><br>
+                    <input type="text" id="fname" name="fname" required><br>
+                    <label for="lname">Last name:</label><br>
+                    <input type="text" id="lname" name="lname" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="text" id="email" name="email" required><br>
+                    <label for="pnumber">Phone Number:</label><br>
+                    <input type="text" id="pnumber" name="pnumber"><br>
+                    <label for="rfcontact">Reason For Contact:</label><br>
+                    <select id="rfcontact" name="rfcontact" required>
+                        <option value="">Choose a reason</option>
+                        <option value="general">General Question</option>
+                        <option value="custom">Custom Dessert Order</option>
+                        <option value="event">Special Event</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <label for="edate">Event Date:</label><br>
+                    <input type="text" id="edate" name="edate"><br>
+                    <label for="nguests">Number of Guests:</label><br>
+                    <input type="text" id="nguests" name="nguests" min=1><br>
+                    <label for="poservice">Product/Service:</label><br>
+                    <input type="text" id="poservice" name="poservice"><br>
+                    <label for="message">Message:</label><br>
+                    <input type="text" id="message" name="message" rows="5" required><br>
+                    <label for="pcmethod">Preferred Contact Method:</label><br>
+                    <select id="pcmethod" name="pcmethod">
+                        <option value="">Choose a method</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select>
+                    <div class="form-buttons">
+                        <input type="reset" value="Reset">
+                        <input type="submit" value="Submit">
+                    </div>
+                </form>
+            </section>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>This site was created as part of the Web Development II course at Northwest Missouri State University and was developed to learn and enhance the concepts within that course. It is not intended for public use.</p>
+        <p>&copy; Sweet Clover Bakery</p>
+    </footer>
+</body>
+
+</html>
+
+<!-- Sources: Used W3 Schools for example code -->
+ 

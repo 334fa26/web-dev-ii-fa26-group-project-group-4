@@ -2,67 +2,424 @@
 
 /*
    Project Name:
-   Author(s):
-   Date:
+   Author(s): Danielle Babb
+   Date: 10-14=2026
    Filename: styles.css
 
 */
 
+/* Define standard variables and values for website */
+* {
+    box-sizing: border-box;
+}
+
+section {
+    padding: 40px 8%;
+    text-align: center;
+}
 
 /* HTML and Body styles */
-
-
-
+html {
+    background-color: rgb(241, 228, 204);
+    font-size: 14px;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+    font-family: Garamond, Times, serif;
+}
 
 /* Header styles */
+.brand-logo {
+    height: 40px;
+    width: auto;
+}
 
+h1 {
+    font-size: 40px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
+    line-height: 1.7;
+}
 
+h1 thick {
+    font-weight: bold;
+}
 
+h2 {
+    font-size: 25px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
+    line-height: 1.7;
+}
 
-/* Navigation list styles */
+h3 {
+    font-size: 20px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
+    margin: 0;
+    line-height: 1.7;
+}
 
+p {
+    font-size: 15px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
+    margin: 0 0 20px;
+    line-height: 1.7;
+}
 
+/* Menu cards */
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.items div {
+    flex: 1 1 250px;
+    max-width: 350px;
+    padding: 15px;
+    background-color: #fffaf2;
+    border-radius: 5px;
+}
+
+/* Navigation container styles */
+body > header {
+    position: relative;
+    z-index: 1000;
+    background-color: #f1e4cc;
+    min-height: 60px;
+    width: 100%;
+}
+
+body > header > nav#mainLinks {
+    background-color: #f1e4cc;
+    color: #2c2725;
+    width: 100%;
+}
+
+/* Use Flexbox and center the links */
+nav#mainLinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+   
+}
+
+nav#mainLinks ul li {
+    background-color: #f1e4cc;
+    text-align: center;
+}
+
+/* link colors*/
+a:link,
+a:visited{
+    color: #96584e;
+}
+
+a:hover,
+a:active {
+    color:#798165;
+}
+/* Link styling */
+body > header > nav#mainLinks a,
+nav#mainLinks ul li a {
+    color: #2c2725;
+    text-decoration: none;
+    display: block;
+    padding: 15px 16px;
+    line-height: 1em;
+}
+
+nav#mainLinks a:link,
+nav#mainLinks a:visited {
+    background-color: #f1e4cc;
+    color: #2c2725;
+}
+
+nav#mainLinks a:hover,
+nav#mainLinks a:active {
+    background-color: #f1e4cc;
+    color: #96584e;
+}
+
+/* Button pinned to the top right */
+body > header button {
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    background-color: #96584e;
+     font-family: Garamond, Times, serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
 
 /* Article Styles */
+main {
+    font-size: 14px;
+    color: #2c2725;
+    font-weight: normal;
+    background: #f1e4cc;
+    font-family: Inter, Arial, sans-serif;
+    line-height: 1.7;
+}
 
+/* Menu button styling */ 
+body > main button {
+    transform: translate(-50%, -150%);
+    position: absolute;
+    align-self: center;
+    background-color: #96584e;
+     font-family: Garamond, Times, serif;
+    color: white;
+    font-size: 15px;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Menu page */
+#menu .menu-images-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
 
+#menu .menu-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+/* Left and right column styling */
+#menu .column-left,
+#menu .column-right {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    min-width: 250px;
+}
+
+/* Image styling */
+#menu .menu-images-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+/* contact form */
+form {
+    max-width: 450px;
+    margin: 25px auto;
+    text-align-last: left;
+}
+
+label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #2c2725;
+    border-radius: 4px;
+    font: inherit;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 15px;
+}
+
+.form-buttons input {
+    background-color: #96584e;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-buttons input:hover {
+    background-color: #798165;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* About page */
+.about-section {
+    padding: 35px 8%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.about-image {
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    margin: 0 auto 25px;
+    border-radius: 5px;
+}
+
+.team-member {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #f1e4cc;
+    border-radius: 5px;
+}
+
+.team-member img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #f1e4cc
+}
+
+/* FAQ page */
+.faq-section {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px 8%;
+}
+
+.faq-section h2 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+    color: #96584e;
+}
+
+.faq-section h3 {
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.faq-section p {
+    margin-bottom: 12px;
+}
 
 /* Page footer styles */
+footer p {
+    font-size: 14px;
+    color: #f1e4cc;
+    font-weight: normal;
+    background: #2c2725;
+    font-family: Inter, Arial, sans-serif;
+    line-height: 1.7;
+    margin: 0;
+    padding: 30px 8%;
+    text-align: center;
 
-
-
+}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 510px
    =============================================
 */
-@media only screen and (min-width:511px) {
+@media only screen and (min-width: 511px) {
    
-   
+    #about,#about p,#about h1, #about h2, #about h3{
+        background-color: #798165;
+        color: white;
+    }
+    
+    #contact,#contact p, #contact h1, #contact h2, #contact h3{
+        background-color: #96584e;
+        color: white;
+        box-sizing: border-box;
 }
+    .about-content, .team-content, .menu-content {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        text-align: left;
+    }
+    .about-content img {
+        width: 40%;
+        height: auto;
+        border-radius: 5px;
+    }
+    
+  .menu-content img {
+        width: 35%;
+        max-width: 350px;
+        height: auto;
+    }
+
+    .about-text, .team-text, .menu-text {
+        width: 50%;
+    }
+    
+
+#menu .menu-images-flex {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+    #menu .menu-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+    #menu .menu-item {
+    text-align: center;
+}
+}
+
+
+
 
 /* =============================================
    Tablet and Desktop Styles: greater than 640px
    =============================================
 */
-@media only screen and (min-width:641px) {
-      
-   
+@media only screen and (min-width: 640px) {
+    .about-content, .team-content, .menu-content {
+        gap: 50px; 
+    }
+
+    .about-text, .team-text, .menu-text {
+        width: 55%; 
+    }
+
+    #menu .menu-images-flex {
+        gap: 35px;
+    }
+
+    #menu .menu-item img {
+        height: 280px; 
+    }
 }
 
 /* =============================================
    Tablet and Desktop Styles: greater than 720px
    =============================================
 */
-@media only screen and (min-width: 721px) {
-       
-}
+@media only screen and (min-width: 721px) {}
 
 /* =============================================
    Tablet and Desktop Styles: greater than 1020px
    =============================================
 */
-@media only screen and (min-width: 1021px) {
 
-    
-}
+ @media only screen and (min-width: 1021px) {}
