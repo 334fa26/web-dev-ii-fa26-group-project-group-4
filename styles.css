@@ -420,12 +420,10 @@ footer p {
         gap: 60px;
     }
 
-    /* Fine-tune the grid gap for a roomier layout */
     #menu .menu-images-flex {
         gap: 40px;
     }
 
-    /* Increase image height for a more impactful visual presence */
     #menu .menu-item img {
         height: 310px;
     }
@@ -436,4 +434,20 @@ footer p {
    =============================================
 */
 
- @media only screen and (min-width: 1021px) {}
+ @media only screen and (min-width: 1021px) {
+     .about-content, .team-content, .menu-content {
+        gap: 80px;
+    }
+
+    .about-text, .team-text, .menu-text {
+        width: 60%;
+    }
+
+    #menu .menu-images-flex {
+        gap: 50px;
+    }
+
+    #menu .menu-item img {
+        height: 340px;
+    }
+}
