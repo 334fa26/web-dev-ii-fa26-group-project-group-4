@@ -27,48 +27,36 @@ html {
     font-family: Garamond, Times, serif;
 }
 
-/* Header styles */
+/* Logo styles */
 .brand-logo {
     height: 40px;
     width: auto;
 }
 
-h1 {
-    font-size: 40px;
+/* Header and paragraph styles */
+h1, h2, h3, p {
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
     line-height: 1.7;
 }
 
-h1 thick {
-    font-weight: bold;
+h1 {
+    font-size: 40px;
 }
 
 h2 {
     font-size: 25px;
-    color: #2c2725;
-    background: #f1e4cc;
-    font-family: Garamond, Times, serif;
-    line-height: 1.7;
 }
 
 h3 {
     font-size: 20px;
-    color: #2c2725;
-    background: #f1e4cc;
-    font-family: Garamond, Times, serif;
     margin: 0;
-    line-height: 1.7;
 }
 
 p {
     font-size: 15px;
-    color: #2c2725;
-    background: #f1e4cc;
-    font-family: Garamond, Times, serif;
     margin: 0 0 20px;
-    line-height: 1.7;
 }
 
 /* Menu cards */
@@ -103,7 +91,6 @@ body > header > nav#mainLinks {
     width: 100%;
 }
 
-/* Use Flexbox and center the links */
 nav#mainLinks ul {
     display: flex;
     justify-content: center;
