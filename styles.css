@@ -329,8 +329,68 @@ footer p {
     line-height: 1.7;
     margin: 0;
     padding: 30px 8%;
-    text-align: center;
+    text-align: center; 
+}
 
+/* Remove numbering from lists on the main page */
+main ol {
+  list-style: none;
+  padding-left: 0;
+}
+
+main ol li::marker {
+  content: "";
+}
+
+/* Remove automatic numbering from headings */
+main h2::before,
+main h3::before {
+  content: none;
+}
+    
+/* SEO styles */
+.bakery-guide {
+  padding: 3rem 1.5rem;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.bakery-guide h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.bakery-guide > p {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.bakery-guide table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 2rem 0;
+  text-align: left;
+}
+.bakery-guide th,
+.bakery-guide td {
+  padding: 1rem;
+  border: 1px solid #ddd;
+}
+
+.bakery-guide th {
+  background-color: #f3e8dc;
+  font-weight: bold;
+}
+.bakery-guide tbody tr:nth-child(even) {
+  background-color: #faf6f1;
+}
+@media (max-width: 600px) {
+  .bakery-guide {
+    padding: 2rem 1rem;
+    overflow-x: auto;
+  }
+
+  .bakery-guide table {
+    min-width: 550px;
+  }
 }
 
 /* =============================================
@@ -387,6 +447,7 @@ footer p {
     text-align: center;
 }
 }
+
 
 
 
