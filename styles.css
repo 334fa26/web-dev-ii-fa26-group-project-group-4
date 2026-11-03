@@ -348,49 +348,55 @@ main h3::before {
   content: none;
 }
     
-/* SEO styles */
+/* SEO styles - Menu Comparison */
 .bakery-guide {
-  padding: 3rem 1.5rem;
-  max-width: 1100px;
-  margin: 0 auto;
+    padding: 3rem 1.5rem;
+    max-width: 1100px;
+    margin: 0 auto;
 }
 .bakery-guide h2 {
-  text-align: center;
-  margin-bottom: 1rem;
+    text-align: center;
+    margin-bottom: 1rem;
 }
 
 .bakery-guide > p {
-  text-align: center;
-  margin-bottom: 1.5rem;
+    text-align: center;
+    margin-bottom: 1.5rem;
 }
 .bakery-guide table {
-  width: 100%;
-  border-collapse: collapse;
-  margin: 2rem 0;
-  text-align: left;
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: #fffaf2;
 }
 .bakery-guide th,
 .bakery-guide td {
-  padding: 1rem;
-  border: 1px solid #ddd;
+    padding: 1rem;
+    border: 1px solid #96584e;
 }
 
 .bakery-guide th {
-  background-color: #f3e8dc;
-  font-weight: bold;
+    background-color: #96584e;
+    color: white;
+    font-weight: bold;
 }
 .bakery-guide tbody tr:nth-child(even) {
-  background-color: #faf6f1;
+    background-color: #f3e8dc;
+}
+
+.bakery-guide tbody tr:hover {
+    background-color: #e8d8c1;
 }
 @media (max-width: 600px) {
-  .bakery-guide {
-    padding: 2rem 1rem;
-    overflow-x: auto;
-  }
+    .bakery-guide {
+        padding: 2rem 1rem;
+        overflow-x: auto;
+    }
 
-  .bakery-guide table {
-    min-width: 550px;
-  }
+    .bakery-guide table {
+        min-width: 550px;
+    }
 }
 
 /* =============================================
@@ -446,6 +452,25 @@ main h3::before {
     #menu .menu-item {
     text-align: center;
 }
+}
+
+/* Match menu tables to website typography */
+.bakery-guide, .bakery-guide table, .bakery-guide th, .bakery-guide td, .bakery-guide p {
+    font-family: Garamond, Times, serif;
+    color: #2c2725;
+}
+.bakery-guide p {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+.bakery-guide th,
+.bakery-guide td {
+    font-size: 15px;
+}
+
+.bakery-guide h2 {
+    font-family: Garamond, Times, serif;
 }
 
 
