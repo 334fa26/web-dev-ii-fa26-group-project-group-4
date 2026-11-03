@@ -27,38 +27,49 @@ html {
     font-family: Garamond, Times, serif;
 }
 
-/* Logo styles */
+/* Header styles */
 .brand-logo {
     height: 40px;
     width: auto;
 }
 
-/* Header and paragraph styles */
-h1, h2, h3, p {
+h1 {
+    font-size: 40px;
     color: #2c2725;
     background: #f1e4cc;
     font-family: Garamond, Times, serif;
     line-height: 1.7;
 }
 
-h1 {
-    font-size: 40px;
+h1 thick {
+    font-weight: bold;
 }
 
 h2 {
     font-size: 25px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
+    line-height: 1.7;
 }
 
 h3 {
     font-size: 20px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
     margin: 0;
+    line-height: 1.7;
 }
 
 p {
     font-size: 15px;
+    color: #2c2725;
+    background: #f1e4cc;
+    font-family: Garamond, Times, serif;
     margin: 0 0 20px;
+    line-height: 1.7;
 }
-
 
 /* Menu cards */
 .items {
@@ -92,6 +103,7 @@ body > header > nav#mainLinks {
     width: 100%;
 }
 
+/* Use Flexbox and center the links */
 nav#mainLinks ul {
     display: flex;
     justify-content: center;
@@ -293,7 +305,7 @@ textarea {
 .faq-section h2 {
     margin-top: 25px;
     margin-bottom: 15px;
-    color: #96584e;
+    color: #f1e4cc;
 }
 
 .faq-section h3 {
@@ -303,7 +315,9 @@ textarea {
 
 .faq-section p {
     margin-bottom: 12px;
-}
+} 
+
+
 
 /* Page footer styles */
 footer p {
@@ -319,13 +333,6 @@ footer p {
 
 }
 
-/* SEO modifications */
-.bakery-listicle ol {
-    list-style: none;
-    padding-left: 0;
-    margin-left: 0;
-}
-
 /* =============================================
    Tablet and Desktop Styles: greater than 510px
    =============================================
@@ -338,8 +345,8 @@ footer p {
     }
     
     #contact,#contact p, #contact h1, #contact h2, #contact h3{
-        background-color: #96584e;
-        color: white;
+        background-color: #f1e4cc;
+        color: #2c2725;
         box-sizing: border-box;
 }
     .about-content, .team-content, .menu-content {
