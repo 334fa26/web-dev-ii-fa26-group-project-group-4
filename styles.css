@@ -98,7 +98,7 @@ body > header {
 }
 
 body > header > nav#mainLinks {
-    background-color: #f1e4cc;
+    background-color: #96584e;
     color: #2c2725;
     width: 100%;
 }
@@ -114,14 +114,14 @@ nav#mainLinks ul {
 }
 
 nav#mainLinks ul li {
-    background-color: #f1e4cc;
+    background-color: #2c2725;
     text-align: center;
 }
 
 /* link colors*/
 a:link,
 a:visited{
-    color: #96584e;
+    color: #2c2725;
 }
 
 a:hover,
@@ -140,14 +140,14 @@ nav#mainLinks ul li a {
 
 nav#mainLinks a:link,
 nav#mainLinks a:visited {
-    background-color: #f1e4cc;
-    color: #2c2725;
+    background-color: #96584e;
+    color: white;
 }
 
 nav#mainLinks a:hover,
 nav#mainLinks a:active {
     background-color: #f1e4cc;
-    color: #96584e;
+    color: #2c2725;
 }
 
 /* Button pinned to the top right */
