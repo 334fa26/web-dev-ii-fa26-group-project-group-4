@@ -59,6 +59,7 @@ p {
     margin: 0 0 20px;
 }
 
+
 /* Menu cards */
 .items {
     display: flex;
@@ -316,6 +317,13 @@ footer p {
     padding: 30px 8%;
     text-align: center;
 
+}
+
+/* SEO modifications */
+.bakery-listicle ol {
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
 }
 
 /* =============================================
