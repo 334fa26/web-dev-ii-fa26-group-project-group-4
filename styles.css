@@ -32,11 +32,6 @@ body {
     font-size: 1rem;
 }
 
-section {
-    padding: 40px 8%;
-    text-align: center;
-}
-
 /* Header & Typography Styles */
 .brand-logo {
     width: auto;
@@ -373,6 +368,20 @@ main h3::before {
     text-align: center;
 }
 
+.table-container {
+    width:100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 20px auto;
+}
+
+.table-container table {
+    width: 100%;
+    min-width: 550px;
+    border-collapse: collapse;
+}
+
 .bakery-guide table {
     width: 100%;
     margin: 2rem auto;
@@ -415,16 +424,13 @@ main h3::before {
 /* ==========================================================================
    Media Queries
    ========================================================================== */
-
-/* Mobile Breakpoint: Up to 600px */
 @media (max-width: 600px) {
     .bakery-guide {
         padding: 2rem 1rem;
-        overflow-x: auto;
     }
-
-    .bakery-guide table {
-        min-width: 550px;
+    
+    .table-container {
+        overflow-x: auto;
     }
 }
 
