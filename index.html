@@ -1,35 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <!--
-         Project Description:
 
-         Author(s): 
-         Date:   
+<head>
+    <!--
+         Project Description: Sweet Clover Webpage
+         Author(s): Emma Fournier, Chase Droegemueller, Danielle Babb
+         Date:   10/18/2026
    
          Filename: index.html
-   
       -->
-      
-      <meta charset="utf-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1" />
-      <title></title>
-      <link href="styles.css" rel="stylesheet" />
 
-   </head>
+    <meta charset="utf-8" />
+    <meta name="description" content="The main page for Sweet Clover Bakery. Including the menu, about section, FAQ section, and contact section." />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Sweet Clover Bakery</title>
+    
+    <link href="styles.css" rel="stylesheet" />
+    <link href="sassstyles.css" rel="stylesheet" />
+</head>
 
-   <body>
-      <header>
-         
-      </header>
+<body>
+    <header>
+        <img class="brand-logo" src="logo.svg" alt="Sweet Clover Bakery" />
+        <nav class="horizontal" id="mainLinks" aria-label="Main navigation">
 
-      <article>
-             
-      </article>
-      
-      <footer>
-         
-      </footer>
-   </body>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button onClick="document.location='contact.html'">Make an order</button>
+        </nav>
+    </header>
+
+    <main>
+        <!--Home/ Introduction-->
+        <section id="index" class="intro">
+            <h1>Something for every kind of day</h1>
+        </section>
+
+        <section id="menu">
+            <!-- Menu Section -->
+            <div class="menu-images-flex">
+
+                <div class="menu-item">
+                    <img src="images/muffins.jpg" alt="Fresh muffins">
+                    <h2>A softer start.</h2>
+                    <p>Explore breakfast and pastries</p>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/birthdaycake.jpg" alt="Birthday cake">
+                    <h2>Celebrate your way.</h2>
+                    <p>Explore custom treats</p>
+                </div>
+
+                <div class="menu-item">
+                    <img src="images/breadoven.jpg" alt="Croissants baking">
+                    <h2>Break bread together.</h2>
+                    <p>Explore our bread selection</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!--About section-->
+        <section id="about">
+            <div class="about-content">
+                <img src="images/HomePageNew.jpg" width="100px" alt="A shelf of assorted pastries" />
+                <div class="about-text">
+                    <h2>Good things, baked close to home</h2>
+                    <p>Sweet Clover is a local bakery and custom dessert shop in Maryville, Missouri. For a break between classes,
+                        a treat to bring home or a reason to gather, theres a sweet place to start.</p>
+                    <p><i><a href="about.html">Meet Sweet Clover</a></i></p>
+                </div>
+            </div>
+        </section>
+        <section class="bakery-guide">
+            <h2>Top 5 Sweet Clover Bakery Favorites</h2>
+
+            <p>
+                Sweet Clover Bakery offers something for every occasion.
+                Explore five ways to enjoy our freshly baked selection
+                in Maryville, Missouri.
+            </p>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bakery Offering</th>
+                        <th>Best For</th>
+                        <th>What You'll Find</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1. Breakfast and Pastries</td>
+                        <td>A morning treat</td>
+                        <td>Croissants, cinnamon rolls, muffins, and seasonal scones.</td>
+                    </tr>
+                    <tr>
+                        <td>2. Freshly Baked Breads</td>
+                        <td>Everyday meals</td>
+                        <td>Sourdough, honey wheat, rosemary garlic focaccia, and cinnamon raisin bread.</td>
+                    </tr>
+                    <tr>
+                        <td>3. Cookies and Treats</td>
+                        <td>A sweet snack</td>
+                        <td>Chocolate chip cookies, sugar cookies, brownies, and oatmeal cream pies.</td>
+                    </tr>
+                    <tr>
+                        <td>4. Seasonal Specials</td>
+                        <td>Seasonal celebrations</td>
+                        <td>Rotating seasonal scones, cupcakes, cookies, and specialty cakes.</td>
+                    </tr>
+                    <tr>
+                        <td>5. Custom Cakes and Desserts</td>
+                        <td>Special occasions</td>
+                        <td>Birthday cakes, wedding desserts, decorated cookies, and dessert boxes.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+            <p>
+                Ready to find your favorite?
+                <a href="menu.html">Explore our full bakery menu</a>
+                or <a href="contact.html">contact us about a custom order</a>.
+            </p>
+        </section>
+ 
+
+        <section class="bakery-guide" id="menu-comparison">
+            <h2>Compare Our Best Bakery Treats</h2>
+
+            <p>
+                Sweet Clover Bakery offers five main categories of baked goods:
+                breakfast pastries, freshly baked breads, cookies and treats,
+                seasonal specials, and custom cakes and desserts. Each category
+                provides different products and options for customers. Use the
+                comparison table below to explore the bakery's offerings and
+                find treats that suit your preferences and occasion.
+            </p>
+<div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Bakery Item</th>
+                        <th>Category</th>
+                        <th>Best For</th>
+                        <th>Customizable?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fresh Pastries</td>
+                        <td>Breakfast</td>
+                        <td>Morning treats and coffee</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Artisan Breads</td>
+                        <td>Bread</td>
+                        <td>Sandwiches and everyday meals</td>
+                        <td>No</td>
+                    </tr>
+                    <tr>
+                        <td>Cookies and Brownies</td>
+                        <td>Desserts</td>
+                        <td>Snacking and sharing</td>
+                        <td>Some options</td>
+                    </tr>
+                    <tr>
+                        <td>Seasonal Specials</td>
+                        <td>Limited-Time Treats</td>
+                        <td>Holiday celebrations</td>
+                        <td>Varies</td>
+                    </tr>
+                    <tr>
+                        <td>Custom Cakes</td>
+                        <td>Specialty Desserts</td>
+                        <td>Birthdays and celebrations</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Decorated Cookies</td>
+                        <td>Custom Desserts</td>
+                        <td>Parties and special events</td>
+                        <td>Yes</td>
+                    </tr>
+                    <tr>
+                        <td>Dessert Boxes</td>
+                        <td>Desserts</td>
+                        <td>Gifts and gatherings</td>
+                        <td>Ask about options</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+        </section>
+
+        <!-- FAQ Selection -->
+        <section id="faq" class="faq-section">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-item">
+                <h3>Do you offer delivery?</h3>
+                <p>
+                    At this time, Sweet Clover offers bakery pickup.
+                    Delivery may be available for select large orders
+                    by special arrangement.
+                </p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you accept custom orders?</h3>
+                <p>
+                    Yes. We offer custom cakes, cookies, cupcakes,
+                    and dessert boxes for a variety of occasions.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How far in advance should I place a custom order?</h3>
+                <p>
+                    We recommend placing custom orders at least seven
+                    days in advance.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Do you offer gluten-free products?</h3>
+                <p>
+                    We offer select gluten-free items. Because our bakery
+                    handles wheat and other allergens, we cannot guarantee
+                    an allergen-free environment.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3>How can I place an order?</h3>
+                <p>
+                    Visit the bakery, call us, or submit the online
+                    custom-order request form.
+                </p>
+            </div>
+            <p>
+                Have more questions?
+                <a href="faq.html">Visit our complete FAQ page</a>
+                or <a href="contact.html">contact Sweet Clover Bakery</a>.
+            </p>
+        </section>
+
+    </main>
+    <footer>
+        <p>This site was created as part of the Web Development II course at Northwest Missouri State University and was developed to learn and enhance the concepts within that course. It is not intended for public use.</p>
+        <p>&copy; Sweet Clover Bakery</p>
+    </footer>
+</body>
+
+
 
 </html>
