@@ -1,0 +1,77 @@
+# Sweet Clover Bakery
+
+> Sweet Clover Bakery is a bakery and custom dessert shop website concept associated with Maryville, Missouri. This website presents five main categories of bakery offerings: breakfast pastries, freshly baked breads, cookies and treats, seasonal specials, and custom cakes and desserts. The website was developed as a Web Development II student project at Northwest Missouri State University.
+
+## About Sweet Clover Bakery
+Sweet Clover Bakery introduces a bakery concept focused on baked goods for everyday enjoyment and special occasions.
+
+The website covers:
+- Breakfast pastries, including croissants, cinnamon rolls, muffins, and seasonal scones.
+- Breads, including sourdough, honey wheat, rosemary garlic focaccia, and cinnamon raisin bread.
+- Cookies and treats, including chocolate chip cookies, sugar cookies, brownies, and oatmeal cream pies.
+- Seasonal specials, including seasonal scones, cupcakes, cookies, and specialty cakes.
+- Custom desserts, including birthday cakes, wedding desserts, decorated cookies, cupcakes, and dessert boxes.
+
+## Main Website Pages
+- [Home](https://334fa26.github.io/web-dev-ii-fa26-group-project-group-4/): Overview of Sweet Clover Bakery, its product categories, and frequently asked questions.
+- [Menu](https://334fa26.github.io/web-dev-ii-fa26-group-project-group-4/menu.html): Bakery product and menu information.
+- [About](https://334fa26.github.io/web-dev-ii-fa26-group-project-group-4/about.html): Background information about Sweet Clover Bakery.
+- [FAQ](https://334fa26.github.io/web-dev-ii-fa26-group-project-group-4/faq.html): Answers about ordering, delivery, custom desserts, advance notice, and allergens.
+- [Contact](https://334fa26.github.io/web-dev-ii-fa26-group-project-group-4/contact.html): Contact and custom-order request information.
+## Bakery Product Categories
+
+### Breakfast and Pastries
+
+Croissants, cinnamon rolls, muffins, and seasonal scones.
+
+### Freshly Baked Breads
+
+Sourdough, honey wheat, rosemary garlic focaccia, and cinnamon raisin bread.
+
+### Cookies and Treats
+Chocolate chip cookies, sugar cookies, brownies, and oatmeal cream pies.
+
+### Seasonal Specials
+
+Rotating seasonal scones, cupcakes, cookies, and specialty cakes.
+
+### Custom Cakes and Desserts
+
+Birthday cakes, wedding desserts, decorated cookies, cupcakes, and dessert boxes.
+
+## Ordering Information
+- Custom orders include cakes, cookies, cupcakes, and dessert boxes.
+- The recommended advance notice for custom orders is at least seven days.
+- The stated standard ordering arrangement is bakery pickup.
+- Delivery may be available for select large orders by special arrangement.
+- Customers can visit the contact page for order-request information.
+
+## Frequently Asked Questions
+**Does Sweet Clover offer delivery?**
+
+The stated standard arrangement is bakery pickup. Delivery may be available for select large orders by special arrangement.
+
+**Does Sweet Clover accept custom orders?**
+
+Yes. Listed custom options include cakes, cookies, cupcakes, and dessert boxes.
+
+**How far in advance should custom orders be placed?**
+
+At least seven days in advance is recommended.
+
+**Does Sweet Clover offer gluten-free products?**
+
+Select gluten-free items are listed. However, the bakery handles wheat and other allergens and cannot guarantee an allergen-free environment.
+
+**How can customers place an order?**
+The listed methods are visiting the bakery, calling, or submitting the online custom-order request form.
+
+## Project and Editorial Information
+
+- Website: Sweet Clover Bakery
+- Associated location: Maryville, Missouri
+- Project institution: Northwest Missouri State University
+- Course: Web Development II
+- Project authors: Emma Fournier, Chase Droegemueller, Danielle Babb
+- Last content update: November 8, 2026
+- Website purpose: Educational student project; not intended for public commercial use.
