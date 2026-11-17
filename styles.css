@@ -80,14 +80,29 @@ p {
 }
 
 /* Link States & Interactive Focus */
-a:link,
-a:visited {
+.other-links:link,
+.other-links:visited {
     color: #2c2725;
 }
 
+.other-links:link,
+.other-links:hover {
+    color: #96584e;
+}
+
+#meet-sweet-clover:link,
+    #meet-sweet-clover:visited {
+        color: #ffffff;
+    }
+
+#meet-sweet-clover:link,
+    #meet-sweet-clover:hover {
+        color: #96584e;
+    }
+
 a:hover,
 a:active {
-    color: #555c45;
+    color: #ffffff;
 }
 
 a:focus-visible,
@@ -530,7 +545,12 @@ main a {
     .table-container {
         overflow-x: auto;
     }
-}
+    
+    #meet-sweet-clover:link,
+    #meet-sweet-clover:visited {
+        color: #2c2725;
+    }
+} 
 
 /* Tablet & Desktop: min-width 511px */
 @media only screen and (min-width: 511px) {
@@ -595,6 +615,8 @@ main a {
     #menu .menu-item {
         text-align: center;
     }
+    
+    
 }
 
 /* Tablet & Desktop: min-width 641px */
@@ -618,6 +640,11 @@ main a {
     #menu .menu-item img {
         height: 280px;
     }
+    
+    #meet-sweet-clover:link,
+    #meet-sweet-clover:visited {
+        color: #ffffff;
+    }
 }
 
 /* Desktop: min-width 721px */
@@ -634,6 +661,10 @@ main a {
 
     #menu .menu-item img {
         height: 310px;
+    }
+    #meet-sweet-clover:link,
+    #meet-sweet-clover:visited {
+        color: #ffffff;
     }
 }
 
