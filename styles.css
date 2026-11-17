@@ -536,6 +536,8 @@ main a {
 @media only screen and (min-width: 511px) {
     #about,
     #about p,
+    #about i,
+    #about a,
     #about h1,
     #about h2,
     #about h3 {
